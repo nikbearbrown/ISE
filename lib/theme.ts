@@ -2,10 +2,10 @@ export const theme = {
   // NEU ISE palette — swap these to rebrand the entire site
   // All pairings meet WCAG AA contrast (4.5:1) against bb8 (parchment)
   colors: {
-    bb1: '#0D0D0D',   // soot black — primary text
-    bb2: '#4A4A4A',   // iron grey — primary accent, headers
-    bb3: '#8B0000',   // dried-ink red — danger, emphasis
-    bb4: '#8B7536',   // cold brass — highlight, callout
+    bb1: '#000000',   // black — primary text
+    bb2: '#FFFFFF',   // white — primary accent, headers
+    bb3: '#C8102E',   // red — danger, emphasis
+    bb4: '#A4804A',   // gold — highlight, callout
     bb5: '#2F2F2F',   // charcoal — secondary accent
     bb6: '#6B6B5E',   // tarnished pewter — muted accent
     bb7: '#9C9680',   // aged ledger tan — borders, subtle backgrounds
