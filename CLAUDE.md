@@ -350,17 +350,17 @@ The color palette lives in three places that must stay in sync:
 - `public/theme.json` — machine-readable for doc generators
 - `app/globals.css` — CSS variables (`--bb-1` through `--bb-8`) that drive the actual site
 
-### Current palette (inherited, pending rebrand)
-| Var | Hex | Role | WCAG on bb8 |
-|-----|-----|------|-------------|
-| bb1 | #0D0D0D | soot black — primary text | 16.5:1 |
-| bb2 | #4A4A4A | iron grey — primary accent | 5.9:1 |
-| bb3 | #8B0000 | dried-ink red — danger/emphasis | 5.2:1 |
-| bb4 | #8B7536 | cold brass — highlight/callout | 4.5:1 |
-| bb5 | #2F2F2F | charcoal — secondary accent | 10.8:1 |
-| bb6 | #6B6B5E | tarnished pewter — muted accent | — |
-| bb7 | #9C9680 | aged ledger tan — borders, subtle bg | — |
-| bb8 | #E8E0D0 | parchment — page background | — |
+### Current palette
+| Var | Hex | Role |
+|-----|-----|------|
+| bb1 | #000000 | black — primary text |
+| bb2 | #FFFFFF | white — primary accent, headers |
+| bb3 | #C8102E | red — danger, emphasis |
+| bb4 | #A4804A | gold — highlight, callout |
+| bb5 | #2F2F2F | charcoal — secondary accent |
+| bb6 | #6B6B5E | tarnished pewter — muted accent |
+| bb7 | #9C9680 | aged ledger tan — borders, subtle bg |
+| bb8 | #E8E0D0 | parchment — page background |
 
 ### To rebrand a new deployment
 1. Edit the hex values in all three files (`lib/theme.ts`, `public/theme.json`, `app/globals.css`)
