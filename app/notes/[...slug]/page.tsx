@@ -23,7 +23,7 @@ export async function generateMetadata({
       }
     }
   }
-  return { title: 'Notes - Irreducibly Human' }
+  return { title: 'Notes - NEU ISE' }
 }
 
 export default async function NoteDocPage({

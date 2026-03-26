@@ -24,7 +24,7 @@ export async function generateMetadata({
       }
     }
   }
-  return { title: 'Books - Irreducibly Human' }
+  return { title: 'Books - NEU ISE' }
 }
 
 export default async function ChapterPage({
